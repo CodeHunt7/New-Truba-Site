@@ -428,6 +428,13 @@ mark,
   height: 40%;
  }
 
+ .middlepic {
+  float: middle; /* Выравнивание по правому краю */
+  margin: 0 0 20px 20px; /* Отступы вокруг фотографии */
+  width: 40%;
+  height: 40%;
+ }
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
