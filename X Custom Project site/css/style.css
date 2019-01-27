@@ -6725,7 +6725,13 @@ Header / Jumbotrons / Sliders / Cards
 .colored-bg-container {
   background-color: #DB515B;
   background-attachment: fixed;
-  background-image: linear-gradient(to bottom, rgba(219, 81, 91, 0.8) 0%, rgba(206, 43, 55, 0.8) 50%), url(../images/bg1.jpg);
+  background-image: linear-gradient(to bottom, rgba(219, 81, 91, 0.8) 0%, rgba(206, 43, 55, 0.8) 50%), url(../images/index-slider.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.uncolored-bg-container {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 50%), url(../images/index-uncolored-bg-cont-image.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover; }
