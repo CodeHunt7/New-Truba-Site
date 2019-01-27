@@ -421,6 +421,13 @@ mark,
   max-width: 100%;
   height: auto; }
 
+.rightpic {
+  float: right; /* Выравнивание по правому краю */
+  margin: 0 0 20px 20px; /* Отступы вокруг фотографии */
+  width: 40%;
+  height: 40%;
+ }
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -4151,6 +4158,10 @@ button.close {
 .align-middle {
   vertical-align: middle !important; }
 
+  .displayed {
+    margin-left: auto;
+    margin-right: auto }
+
 .align-bottom {
   vertical-align: bottom !important; }
 
@@ -4162,6 +4173,8 @@ button.close {
 
 .bg-primary {
   background-color: #333333 !important; }
+
+
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
